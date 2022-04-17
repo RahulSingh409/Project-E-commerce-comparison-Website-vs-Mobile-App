@@ -39,8 +39,8 @@ import matplotlib.pyplot as plt
 pickle_in = open("ecommerce.pkl","rb")
 ecommerce= joblib.load(pickle_in)
 
-def st_display_sweetviz(report_html,width=1000,height=500):
-    report_file = codecs.open(report_html,'r')
+def st_display_sweetviz(sweet_report_html,width=1000,height=500):
+    report_file = codecs.open(sweet_report_html,'r')
     page = report_file.read()
     components.html(page,width=width,height=height,scrolling=True)
     
@@ -168,9 +168,9 @@ def main():
             if st.checkbox("View data"):
                 st.write(df)
             
-            report = sv.analyze(df)
-            report.show_html()
-            st_display_sweetviz("SWEETVIZ_REPORT.html")
+            sweet_report = sv.analyze(df)
+            sweet_report.show_html()
+            st_display_sweetviz("sweet_report.html")
             #components.iframe(src='http://localhost:3001/sweet_report.html', width=1100, height=1200, scrolling=True)
             
         
