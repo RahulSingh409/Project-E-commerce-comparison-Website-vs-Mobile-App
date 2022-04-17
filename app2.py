@@ -131,7 +131,7 @@ def main():
         
         if menu == 'Pandas Profiling':
             st.title('Automating EDA using Pandas Profiling of Ecommerce company ')
-            
+            st.image('ecommerce-website-for-fashion-industry.png',use_column_width=True)
             profile = ProfileReport(df,title="Agriculture Data",
 
                             dataset={
@@ -165,6 +165,7 @@ def main():
             
         if menu == 'Sweetviz':
             st.title('Automating EDA using Sweetviz of Ecommerce company ')
+            st.image('ecommerce-website-for-fashion-industry.png',use_column_width=True)
             if st.checkbox("View data"):
                 st.write(df)
             
@@ -176,6 +177,7 @@ def main():
         
         if menu == 'EDA Explanation':
             st.title('Exploratory Data Analysis of Ecommerce Industry')
+            st.image('fashion.png',use_column_width=True)
             if st.checkbox("View data"):
                 st.write(df)
             
