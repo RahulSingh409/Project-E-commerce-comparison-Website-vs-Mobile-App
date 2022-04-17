@@ -207,7 +207,7 @@ def main():
             ''')
 
             st.markdown("<h4 style='text-align: left;'> C)  Correlation Heatmap </h4>", unsafe_allow_html=True)
-            st.image('download.png')
+            st.image('download (12).png')
             st.markdown("<h4 style='text-align: left;'> Inference from ‘r’ values and heat map </h4>", unsafe_allow_html=True)
             st.markdown('''
             * No 2 factors have strong linear relationships. \n
