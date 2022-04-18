@@ -58,6 +58,7 @@ def main():
     st.set_page_config('Fashion Ecommerce Industry')
 
     st.title('Customer Annual Spent Prediction')
+    st.video("https://youtu.be/RUPJ7uHwUzc")
     #import the image
     # Using "with" notation
     with st.sidebar:
