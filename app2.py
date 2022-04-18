@@ -57,7 +57,7 @@ def main():
     # set page title
     st.set_page_config('Fashion Ecommerce Industry')
 
-    st.title('Predict Company Annual Income')
+    st.title('Predict Ecommerce Fashion Industry Annual Income')
     st.video("https://youtu.be/RUPJ7uHwUzc")
     #import the image
     # Using "with" notation
