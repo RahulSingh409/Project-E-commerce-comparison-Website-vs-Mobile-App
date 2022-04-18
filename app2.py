@@ -77,7 +77,7 @@ def main():
         • Mr. R. Hari Haran \n 
         • Mr. Mummareddy Manikumara Swamy \n
         • Mr. Sushilkumar Yadav''')
-        
+        st.sidebar.markdown("[ Visit To Github Repositories](https://github.com/RahulSingh409/Project-E-commerce-comparison-Website-vs-Mobile-App.git)")   
     menu_list = ['Feature Data Analysis','Exploratory Data Analysis' , "Predict Annual Spent per Customer"]
     menu = st.radio("Menu", menu_list)
 
