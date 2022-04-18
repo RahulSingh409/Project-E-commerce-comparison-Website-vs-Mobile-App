@@ -4,7 +4,7 @@ Project E-commerce comparison Website vs Mobile App
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/iIGT8Y1rOYhBpdHh1C/giphy.gif" width="100"/>
 </div>
-<div id="badges">
+<div id="badges" align="center">
   <a href="https://share.streamlit.io/rahulsingh409/project-e-commerce-comparison-website-vs-mobile-app/main/app2.py">
     <img src="https://img.shields.io/badge/Streamlit-red?style=for-the-badge&logo=streamlit&logoColor=red" alt="Streamlit Badge"/>
   </a>
